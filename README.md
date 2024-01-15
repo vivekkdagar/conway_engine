@@ -39,6 +39,13 @@ Ensure you meet the following requirements before installation:
 - **Interactive Controls**: Interact with the simulation by toggling cell states with mouse clicks and using keyboard commands to control the simulation.
 
 ## :toolbox: Usage
+<h3><a id = "installation" href="installation">:running:</a> Install from PyPI</h3>
+
+You can install the `conway_engine` package directly from PyPI using the following command:
+
+```bash
+pip install conway-engine
+```
 
 <h3><a id = "installation" href="installation">:running:</a>Build from source</h3>
 
