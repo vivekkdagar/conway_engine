@@ -40,7 +40,7 @@ Ensure you meet the following requirements before installation:
 
 ## :toolbox: Usage
 
-<h3><a id = "installation" href="installation">:running:</a>Building from source</h3>
+<h3><a id = "installation" href="installation">:running:</a>Build from source</h3>
 
 1. Clone the project
 ```bash
