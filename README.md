@@ -1,6 +1,6 @@
 <div align='center'>
 
-# Game Of Life
+<h1>Game Of Life</h1>
 
 Welcome to the `conway_engine`, a visual representation of Conway's Game of Life—a cellular automaton designed by mathematician John Conway. This package showcases a grid of cells that evolve over time based on specific rules, resulting in intriguing patterns and behaviors.
 
@@ -12,16 +12,16 @@ Welcome to the `conway_engine`, a visual representation of Conway's Game of Life
 
 1. [Screenshots](#demo-screenshot)
 2. [Requirements](#requirements)
-3. [Features](#dart-features)
-4. [Usage](#toolbox-usage)
+3. [Features](#features)
+4. [Installation](#installation)
 5. [Keyboard Commands](#keyboard-commands)
-6. [FAQ](#grey_question-faq)
-7. [Acknowledgements](#gem-acknowledgements)
+6. [FAQ](#question)
+7. [Acknowledgements](#gem-ack)
 
-# 📷 Demo Screenshot
-<div align="center"> <a id ="demo-screenshot" href="demo-screenshot"><img src="https://github.com/vivekkdagar/conway_engine/blob/main/assets/Demo%202.png" alt='image' width='600'/></a> </div>
+<h2><a id="demo-screenshot" href="demo-screenshot">📷</a> Demo Screenshot</h2>
+<div align="center"><img src="https://github.com/vivekkdagar/conway_engine/blob/main/assets/Demo%202.png" alt='image' width='600'/></div>
 
-## :star2: Requirements
+<h2><a id="requirements" href="requirements">:star2:</a> Requirements</h2>
 
 Ensure you meet the following requirements before installation:
 
@@ -78,7 +78,6 @@ pip install dist/*.tar.gz
   - The rules of the Game of Life are: Underpopulation, Survival, Overpopulation, and Reproduction. These simple rules give rise to a variety of patterns, including stable structures, oscillators, and gliders, making the Game of Life a fascinating and widely studied cellular automaton.
 
 ## :gem: Acknowledgements
-
 - [Pygame Library](https://pypi.org/project/pygame/): Leveraging the Pygame library for graphics and user interaction streamlines the development of the Game of Life simulation, providing a robust framework for handling events, drawing the grid, and creating an engaging visual experience for users.
 
 - [John Conway's Game of Life](https://en.wikipedia.org/wiki/John_Horton_Conway/): The entire codebase is built upon the principles of John Conway's Game of Life. The rules governing cell evolution, the grid-based structure, and the concept of cellular automata are all inspired by Conway's seminal work in the field of mathematical games and automata theory.
