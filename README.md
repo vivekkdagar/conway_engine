@@ -1,4 +1,3 @@
-
 <div align='center'>
 
 # Game Of Life
@@ -11,18 +10,16 @@ Welcome to the `conway_engine`, a visual representation of Conway's Game of Life
 
 # :notebook_with_decorative_cover: Table of Contents
 
-1. [Screenshots](#star2-about-the-project)
+1. [Screenshots](#demo-screenshot)
 2. [Requirements](#requirements)
-3. [Getting Started](#toolbox-getting-started)
-4. [Usage](#usage)
-5. [Features](#dart-features)
-6. [Keyboard Commands](#keyboard-commands)
-7. [Screenshots](#camera-screenshots)
-8. [FAQ](#grey_question-faq)
-9. [Acknowledgements](#gem-acknowledgements)
+3. [Features](#dart-features)
+4. [Usage](#toolbox-usage)
+5. [Keyboard Commands](#keyboard-commands)
+6. [FAQ](#grey_question-faq)
+7. [Acknowledgements](#gem-acknowledgements)
 
-# 📷 Screenshots
-<div align="center"> <a href=""><img src="https://github.com/vivekkdagar/conway_engine/blob/main/assets/Demo%202.png" alt='image' width='800'/></a> </div>
+# 📷 Demo Screenshot
+<div align="center"> <a href="#demo-screenshot"><img src="https://github.com/vivekkdagar/conway_engine/blob/main/assets/Demo%202.png" alt='image' width='600'/></a> </div>
 
 ## :star2: Requirements
 
@@ -41,7 +38,7 @@ Ensure you meet the following requirements before installation:
 - **Dynamic Visualization**: Observe a window displaying the evolving patterns of cells over time, creating visually striking designs.
 - **Interactive Controls**: Interact with the simulation by toggling cell states with mouse clicks and using keyboard commands to control the simulation.
 
-## :toolbox: Getting Started
+## :toolbox: Usage
 
 ### :running: Run Locally
 
