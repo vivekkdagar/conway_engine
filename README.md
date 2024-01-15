@@ -61,6 +61,18 @@ python3 setup.py sdist bdist_wheel
 pip install dist/*.tar.gz
 ```
 
+5. After installation, run the simulation by typing the following command in the terminal:
+```bash
+game-of-life
+```
+
+### :toolbox: Command-line Arguments
+
+Use the command-line option to access additional documentation on the GitHub README page:
+
+```bash
+game-of-life --i
+```
 <h3><a id="keyboard" href="keyboard">:keyboard:</a> Keyboard Commands</h3>
 
 - Spacebar: Start/Pause the simulation.
