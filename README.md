@@ -19,7 +19,7 @@ Welcome to the `conway_engine`, a visual representation of Conway's Game of Life
 7. [Acknowledgements](#gem-acknowledgements)
 
 # 📷 Demo Screenshot
-<div align="center"> <a href="#demo-screenshot"><img src="https://github.com/vivekkdagar/conway_engine/blob/main/assets/Demo%202.png" alt='image' width='600'/></a> </div>
+<div align="center"> <a id ="demo-screenshot" href="demo-screenshot"><img src="https://github.com/vivekkdagar/conway_engine/blob/main/assets/Demo%202.png" alt='image' width='600'/></a> </div>
 
 ## :star2: Requirements
 
