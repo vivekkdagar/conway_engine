@@ -1,9 +1,9 @@
+
 <div align='center'>
-
 <h1>Game Of Life</h1>
-
+</div>
 Welcome to the `conway_engine`, a visual representation of Conway's Game of Life—a cellular automaton designed by mathematician John Conway. This package showcases a grid of cells that evolve over time based on specific rules, resulting in intriguing patterns and behaviors.
-
+<div align='center'>
 <h4> <span> · </span> <a href="https://github.com/vivekkdagar/conway_engine/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/vivekkdagar/conway_engine/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/vivekkdagar/conway_engine/issues"> Request Feature </a> </h4>
 
 </div>
@@ -14,9 +14,9 @@ Welcome to the `conway_engine`, a visual representation of Conway's Game of Life
 2. [Requirements](#requirements)
 3. [Features](#features)
 4. [Installation](#installation)
-5. [Keyboard Commands](#keyboard-commands)
+5. [Keyboard Commands](#keyboard)
 6. [FAQ](#question)
-7. [Acknowledgements](#gem-ack)
+7. [Acknowledgements](#ack)
 
 <h2><a id="demo-screenshot" href="demo-screenshot">📷</a> Demo Screenshot</h2>
 <div align="center"><img src="https://github.com/vivekkdagar/conway_engine/blob/main/assets/Demo%202.png" alt='image' width='600'/></div>
@@ -32,7 +32,7 @@ Ensure you meet the following requirements before installation:
   pip install pygame
   ```
 
-## :dart: Features
+<h2><a id="features" href="features">:dart:</a> Features</h2>
 
 - **Gosper Glider Gun**: Experience the inclusion of the renowned Gosper Glider Gun, a pattern triggering gliders in a repeating sequence, resulting in explosive growth.
 - **Dynamic Visualization**: Observe a window displaying the evolving patterns of cells over time, creating visually striking designs.
@@ -40,28 +40,28 @@ Ensure you meet the following requirements before installation:
 
 ## :toolbox: Usage
 
-### :running: Run Locally
+<h3><a id = "installation" href="installation">:running:</a>Run Locally</h3>
 
-Clone the project
+1. Clone the project
 ```bash
 git clone <repository_url>
 ```
 
-Navigate to the root directory of the cloned repository.
+2. Navigate to the root directory of the cloned repository.
 ```bash
 cd conway_engine
 ```
 
-Build the package using the commands below.
+3. Build the package using the commands below.
 ```bash
 python3 setup.py sdist bdist_wheel
 ```
-Install the package using pip.
+4. Install the package using pip.
 ```bash
 pip install dist/*.tar.gz
 ```
 
-## :keyboard: Keyboard Commands
+<h3><a id="keyboard" href="keyboard">:keyboard:</a> Keyboard Commands</h3>
 
 - Spacebar: Start/Pause the simulation.
 - 'c' Key: Clear the grid.
@@ -69,7 +69,7 @@ pip install dist/*.tar.gz
 - Mouse Left Click: Toggle the state of a cell.
 - Mouse Right Click: Remove a cell.
 
-## :grey_question: FAQ
+<h2><a id="question" href="question">:grey_question:</a> FAQ</h2>
 
 - #### Q1: What is the Game of Life by John Conway?
   - The Game of Life is a cellular automaton created by mathematician John Conway. It consists of a two-dimensional grid where each cell can be alive or dead. The evolution of the grid is determined by simple rules, including underpopulation, survival, overpopulation, and reproduction.
@@ -77,7 +77,7 @@ pip install dist/*.tar.gz
 - #### Q2: What are the rules of the Game of Life?
   - The rules of the Game of Life are: Underpopulation, Survival, Overpopulation, and Reproduction. These simple rules give rise to a variety of patterns, including stable structures, oscillators, and gliders, making the Game of Life a fascinating and widely studied cellular automaton.
 
-## :gem: Acknowledgements
+<h2><a id ="ack" href="ack">:gem:</a> Acknowledgements</h2>
 - [Pygame Library](https://pypi.org/project/pygame/): Leveraging the Pygame library for graphics and user interaction streamlines the development of the Game of Life simulation, providing a robust framework for handling events, drawing the grid, and creating an engaging visual experience for users.
 
 - [John Conway's Game of Life](https://en.wikipedia.org/wiki/John_Horton_Conway/): The entire codebase is built upon the principles of John Conway's Game of Life. The rules governing cell evolution, the grid-based structure, and the concept of cellular automata are all inspired by Conway's seminal work in the field of mathematical games and automata theory.
