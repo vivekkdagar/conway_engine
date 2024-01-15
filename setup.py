@@ -21,4 +21,6 @@ setup(
                 " and explosive cellular automaton growth.",
     url='https://github.com/vivekkdagar/conway_engine',
     license='GNU General Public License v3.0',
+    long_description=open('PYPI_README.md').read(),
+    long_description_content_type='text/markdown',
 )
