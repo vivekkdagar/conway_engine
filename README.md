@@ -90,6 +90,7 @@ game-of-life --i
   - The rules of the Game of Life are: Underpopulation, Survival, Overpopulation, and Reproduction. These simple rules give rise to a variety of patterns, including stable structures, oscillators, and gliders, making the Game of Life a fascinating and widely studied cellular automaton.
 
 <h2><a id ="ack" href="ack">:gem:</a> Acknowledgements</h2>
+
 - [John Conway's Game of Life](https://en.wikipedia.org/wiki/John_Horton_Conway/): The entire codebase is built upon the principles of John Conway's Game of Life. The rules governing cell evolution, the grid-based structure, and the concept of cellular automata are all inspired by Conway's seminal work in the field of mathematical games and automata theory.
 
 - [Gosper Glider Gun Pattern](https://conwaylife.com/wiki/Gosper_glider_gun): The implementation of the Gosper glider gun pattern, a well-known configuration in Conway's Game of Life, adds complexity and visual interest to the simulation. The Gosper glider gun is famous for generating gliders, which contribute to the emergence of diverse patterns and behaviors.
