@@ -1,6 +1,7 @@
 import pygame
 import random
-
+import argparse
+import webbrowser
 
 class GameOfLife:
     def __init__(self, width, height, tile_size, fps):
@@ -196,9 +197,21 @@ class GameOfLife:
 
         pygame.quit()
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Conway's Game of Life with Gosper Glider Gun")
+
+    parser.add_argument('--i', action='store_true', help='Open GitHub README in a web browser (Requires internet)')
+
+    return parser.parse_args()
 
 # conway-engine/simulation.py
 
 def main():
+    args = parse_args()
+
+    if args.i:
+        webbrowser.open('https://github.com/vivekkdagar/conway_engine/blob/main/README.md')
+        return
+        
     game = GameOfLife(800, 800, 20, 60)
     game.run()
