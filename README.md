@@ -8,6 +8,8 @@ Welcome to the `conway_engine`, a visual representation of Conway's Game of Life
 
 </div>
 
+> The entry point game-of-life not working on Windows based systems is a known issue.
+
 # :notebook_with_decorative_cover: Table of Contents
 
 1. [Screenshots](#demo-screenshot)
