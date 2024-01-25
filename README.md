@@ -1,4 +1,4 @@
-
+The package is not available on PyPi currently. More information will be posted shortly.
 <div align='center'>
 <h1>Game Of Life</h1>
 </div>
